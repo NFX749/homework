@@ -1,0 +1,10 @@
+37d8920 (HEAD -> main, homework_01) HEAD@{0}: merge homework_01: Fast-forward
+f58029d (origin/main, origin/HEAD) HEAD@{1}: checkout: moving from homework_01 to main
+37d8920 (HEAD -> main, homework_01) HEAD@{2}: commit (merge): 001: added A.txt
+d015fbb HEAD@{3}: commit: 001: added A.txt
+75500ec (tag: hw_01_tag_init, origin/homework_01) HEAD@{4}: checkout: moving from homework_01_b to homework_01
+5205670 (origin/homework_01_b, homework_01_b) HEAD@{5}: commit: 001: added A.txt
+75500ec (tag: hw_01_tag_init, origin/homework_01) HEAD@{6}: checkout: moving from homework_01 to homework_01_b
+75500ec (tag: hw_01_tag_init, origin/homework_01) HEAD@{7}: commit: 001: added A.txt
+f58029d (origin/main, origin/HEAD) HEAD@{8}: checkout: moving from main to homework_01
+f58029d (origin/main, origin/HEAD) HEAD@{9}: clone: from https://gitlab.com/dnu.fpm/cross-platform-programming-2023-2024/pzu/pz-23u-1/Gavrilenko/homework.git
