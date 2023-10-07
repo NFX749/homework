@@ -1,10 +1,12 @@
 package edu.dnu.fpm.pz;
+
 public class App {
     public static void main(String[] args) {
         if (args.length < 3) {
-            System.err.println("Not enought parameters!");
+            System.err.println("Not enough parameters!");
             return;
         }
+
         Calc calc = new CalcImpl();
         double a;
         try {
@@ -13,6 +15,7 @@ public class App {
             System.err.println("Invalid first argument!");
             return;
         }
+
         double b;
         try {
             b = Double.parseDouble(args[1]);
@@ -20,6 +23,7 @@ public class App {
             System.err.println("Invalid second argument!");
             return;
         }
+
         double result = 0;
         switch (args[2]) {
             case "+":
@@ -34,11 +38,11 @@ public class App {
             case "/":
                 result = calc.division(a, b);
                 break;
-            default: {
+            default:
                 System.err.println("Invalid operator!");
                 return;
-            }
         }
+
         System.out.println("number1= " + a + " number2= " + b +
                 " operator= " + args[2] + " result= " + result);
     }
