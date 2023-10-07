@@ -1,10 +1,9 @@
 package edu.dnu.fpm.pz;
+
 /**
- * This is calc interface
- *
+ * This is a Calc interface.
  */
-public interface Calc
-{
+public interface Calc {
     double addition(double a, double b);
     double subtraction(double a, double b);
     double multiplication(double a, double b);
