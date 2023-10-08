@@ -13,7 +13,7 @@ public class CalculatorImpl implements Calculator {
      * @return The result of the addition.
      */
     public double addition(double firstParam, double secondParam ) {
-        return firstParam + secondParam ;
+        return firstParam + secondParam;
     }
 
     /**
@@ -24,7 +24,7 @@ public class CalculatorImpl implements Calculator {
      * @return The result of the subtraction.
      */
     public double subtraction(double firstParam, double secondParam ) {
-        return firstParam - secondParam ;
+        return firstParam - secondParam;
     }
 
     /**
@@ -35,7 +35,7 @@ public class CalculatorImpl implements Calculator {
      * @return The result of the multiplication.
      */
     public double multiplication(double firstParam, double secondParam ) {
-        return firstParam * secondParam ;
+        return firstParam * secondParam;
     }
 
     /**
@@ -49,7 +49,7 @@ public class CalculatorImpl implements Calculator {
         double result = 0;
 
         try {
-            result = firstParam / secondParam ;
+            result = firstParam / secondParam;
         } catch (ArithmeticException e) {
             System.out.println("An error occurred during division: " + e.getMessage());
         }
