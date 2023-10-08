@@ -1,6 +1,6 @@
 package edu.dnu.fpm.pz;
 
-public class CalculatorApp {
+public class App {
     public static void main(String[] args) {
         if (args.length < 3) {
             System.err.println("Not enough parameters!");
