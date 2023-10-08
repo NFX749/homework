@@ -3,7 +3,7 @@ package edu.dnu.fpm.pz;
 /**
  * This is an implementation of the Calc interface.
  */
-public class CalculatorImpl implements Calculator {
+public class CalcImpl implements Calc {
 
     /**
      * Performs addition of two numbers.
