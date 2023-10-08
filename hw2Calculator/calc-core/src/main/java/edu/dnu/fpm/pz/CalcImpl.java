@@ -1,4 +1,4 @@
-package pz.fpm.dnu.edu;
+package edu.dnu.fpm.pz;
 
 /**
  * This is an implementation of the Calc interface.
