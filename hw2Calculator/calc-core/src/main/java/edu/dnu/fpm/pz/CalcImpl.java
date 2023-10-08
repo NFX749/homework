@@ -8,48 +8,48 @@ public class CalculatorImpl implements Calculator {
     /**
      * Performs addition of two numbers.
      *
-     * @param a The first number.
-     * @param b The second number.
+     * @param firstParam The first number.
+     * @param secondParam The second number.
      * @return The result of the addition.
      */
-    public double addition(double a, double b) {
-        return a + b;
+    public double addition(double firstParam, double secondParam ) {
+        return firstParam + secondParam ;
     }
 
     /**
      * Performs subtraction of two numbers.
      *
-     * @param a The first number.
-     * @param b The second number.
+     * @param firstParam The first number.
+     * @param secondParam  The second number.
      * @return The result of the subtraction.
      */
-    public double subtraction(double a, double b) {
-        return a - b;
+    public double subtraction(double firstParam, double secondParam ) {
+        return firstParam - secondParam ;
     }
 
     /**
      * Performs multiplication of two numbers.
      *
-     * @param a The first number.
-     * @param b The second number.
+     * @param firstParam The first number.
+     * @param secondParam  The second number.
      * @return The result of the multiplication.
      */
-    public double multiplication(double a, double b) {
-        return a * b;
+    public double multiplication(double firstParam, double secondParam ) {
+        return firstParam * secondParam ;
     }
 
     /**
      * Performs division of two numbers.
      *
-     * @param a The dividend.
-     * @param b The divisor.
+     * @param firstParam The dividend.
+     * @param secondParam  The divisor.
      * @return The result of the division, or 0 if division by zero occurs.
      */
-    public double division(double a, double b) {
+    public double division(double firstParam, double secondParam ) {
         double result = 0;
 
         try {
-            result = a / b;
+            result = firstParam / secondParam ;
         } catch (ArithmeticException e) {
             System.out.println("An error occurred during division: " + e.getMessage());
         }
